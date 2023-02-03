@@ -1,5 +1,5 @@
 compile: main.c 
-	 gcc  main.c -o bubble
+	 gcc  main.c -o insertion
 
 runSelection: selection
 	  ./selection

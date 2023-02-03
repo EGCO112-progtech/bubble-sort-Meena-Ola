@@ -12,15 +12,15 @@ int main(int argc, char **argv){ //argc=argument count, argv=argument variable
       j++;
     }
   }
-//int main() {
+  //selectionSort(a,N);
+  insertion(a,N);
 //  int a[N]={3,2,6,7,3,1};
 //  int i,j,new_number;
   N=j;
   if(N==0) printf("No prime\n");
-  display(prime,N);
-  bubbleSort(prime,N); 
-   //insertion(a,N);
-
-  // selectionSort(a,N);
-  display(prime,N);
+  //display(prime,N);
+  //bubbleSort(prime,N); 
+  
+  
+  //display(prime,N);
 }
